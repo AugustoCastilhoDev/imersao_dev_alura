@@ -1,0 +1,276 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-color: #000000; /* Cor de fundo preta */
+    color: #FFFFFF; /* Cor do texto principal branca */
+}
+
+body::before {
+    content: "";
+    position: fixed; /* Fixo para não rolar com a página */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://mercadohoje.uai.com.br/wp-content/uploads/2022/02/venda-vasco-1280x720.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    opacity: 0.2; /* Opacidade ajustada para o fundo escuro */
+    z-index: -1; /* Coloca o pseudo-elemento atrás do conteúdo */
+}
+
+header {
+    padding: 10px;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #FFFFFF; /* Títulos em branco para contraste */
+}
+
+header h1 {
+    margin: 0;
+    font-family: 'Bungee Spice', sans-serif;
+    font-size: 3em;
+    text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, 0 0 15px #FF0000;
+    padding-bottom: 10px;
+}
+
+header div {
+    margin-top: 10px;
+}
+
+header input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+
+header button {
+    padding: 10px 15px;
+    background-color: #FF0000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+/* Garante que o texto dentro de um card que é um link permaneça branco */
+a.card {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.card {
+    font-family: 'Oswald', sans-serif;
+    background-color: rgba(34, 34, 34, 0.9); /* Fundo semi-transparente */
+    border: 1px solid #444;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribui o espaço entre os itens */
+    text-align: center;
+    white-space: normal; /* Garante a quebra de linha dentro do card */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Adiciona uma transição suave */
+    width: 250px; /* Largura padrão para todos os cards */
+    min-height: 380px; /* Altura mínima para todos os cards */
+    vertical-align: top; /* Alinha os cards pelo topo */
+}
+
+.card:hover, a.card:hover {
+    transform: scale(1.03); /* Aumenta levemente o card */
+    box-shadow: 0 4px 20px rgba(255, 0, 0, 0.5); /* Adiciona uma sombra vermelha para destaque */
+    cursor: pointer;
+}
+
+.center-card {
+    transform: scale(1.08); /* Destaca o card central aumentando-o mais */
+    border-color: #FF0000; /* Borda vermelha mais forte */
+    box-shadow: 0 6px 25px rgba(255, 0, 0, 0.6);
+}
+
+.profile-button, .buy-button, .card a.saiba-mais {
+    background-color: transparent;
+    color: #FF0000;
+    padding: 8px 15px;
+    text-decoration: none;
+    border: 1px solid #FF0000;
+    border-radius: 20px;
+    margin-top: 15px;
+    transition: background-color 0.3s, color 0.3s;
+    display: inline-block;
+}
+
+.profile-button:hover, .buy-button:hover, .card a.saiba-mais:hover {
+    background-color: #FF0000;
+    color: #FFFFFF;
+}
+
+.player-photo, .info-photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; /* Deixa a foto redonda */
+    object-fit: cover; /* Garante que a imagem preencha o espaço */
+    margin: 0 auto 15px; /* Centraliza a foto e adiciona margem abaixo */
+    border: 3px solid #FF0000; /* Borda vermelha na foto */
+}
+
+.card-content p {
+    margin: 10px 0;
+}
+
+.card-content {
+    flex-grow: 1; /* Permite que o conteúdo cresça para preencher o espaço */
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-top: 30px; /* Adiciona espaço acima dos cards de informação */
+}
+
+.carousel-wrapper {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-top: 30px; /* Adiciona espaço acima do carrossel de jogadores */
+}
+
+.carousel-viewport { /* Novo elemento para a área visível do carrossel */
+    /* Largura para 3 cards: (250px de largura + 10px de margem) * 3 */
+    width: 780px; 
+    max-width: 100%; /* Garante que não ultrapasse a largura do pai */
+    overflow: hidden; /* Esconde os cards que estão fora da área visível */
+    display: flex; /* Para centralizar o carousel-container se ele for menor */
+    justify-content: flex-start; /* Alinha o conteúdo ao início, o transform fará o resto */
+    align-items: center;
+    padding: 30px 0; /* Aumenta o padding vertical para dar espaço ao card destacado */
+}
+
+.carousel-container {
+    white-space: nowrap; /* Impede que os cards quebrem para a próxima linha */
+    text-align: center; /* Centraliza os cards dentro do carrossel */
+    display: flex; /* Usa flexbox para o alinhamento */
+    align-items: center; /* Alinha os cards verticalmente */
+    transition: transform 0.5s ease-in-out; /* Transição para a rolagem */
+}
+
+.carousel-container .card {
+    display: inline-block; /* Coloca os cards lado a lado */
+    margin-right: 10px; /* Espaço entre os cards */
+    flex-direction: column;
+    vertical-align: top; /* Alinha os cards no topo */
+}
+
+/* Estilo para a rolagem suave */
+.carousel-container {
+    scroll-behavior: smooth;
+}
+
+/* Esconde a barra de rolagem no Chrome, Safari e Edge */
+.carousel-container::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none; /* Remove o sublinhado padrão */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+/* Estilos para a barra de navegação de informações */
+.info-nav {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #1a1a1a;
+    border-bottom: 1px solid #333;
+}
+
+.info-nav a {
+    color: #FFFFFF;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.1em;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.info-nav a:hover {
+    background-color: #FF0000; /* Destaque vermelho ao passar o mouse */
+}
+
+/* Estilo para o link ativo na barra de navegação */
+.info-nav a.active-link {
+    background-color: #FF0000;
+    color: #FFFFFF;
+}
+
+/* Estilos para as setas de navegação do carrossel */
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 0, 0, 0.7);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 10;
+    transition: background-color 0.3s;
+}
+
+.arrow:hover {
+    background-color: #FF0000;
+}
+
+.arrow:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    pointer-events: none; /* Desabilita eventos de clique */
+}
+
+#scroll-left { left: 5px; }
+#scroll-right { right: 5px; }
+
+.developer-info {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #cccccc;
+}

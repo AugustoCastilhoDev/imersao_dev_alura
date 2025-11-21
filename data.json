@@ -1,0 +1,229 @@
+[{
+    "tipo": "info",
+    "nome": "A História",
+    "descricao": "Um pouco da História do Vasco da Gama.",
+    "link": "https://vasco.com.br/linha-do-tempo/",
+    "imagemUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Estatuto_vasco.jpg"
+},
+
+{
+    "tipo": "info",
+    "nome": "Títulos e Conquistas",
+    "descricao": "Principais títulos e conquistas do Vasco da Gama.",
+    "link": "https://vasco.com.br/sala-de-trofeus/",
+    "imagemUrl": "https://http2.mlstatic.com/D_NQ_NP_703257-MLB92399361279_092025-O.webp"
+},
+
+{
+    "tipo": "info",
+    "nome": "Ídolos do Clube",
+    "descricao": "Conheça os maiores jogadores que fizeram história no Vasco.",
+    "link": "https://vasco.com.br/atletas-marcantes/",
+    "imagemUrl": "https://futeboldovale.com.br/wp-content/uploads/2019/12/DINAMITE.jpg"
+},
+
+{
+    "tipo": "info",
+    "nome": "Estádio São Januário",
+    "descricao": "A história da construção da casa vascaína.",
+    "link": "https://vasco.com.br/sao-januario/",
+    "imagemUrl": "https://vaskipedia.com/media/images/wiki/2018/05/sao-januario.jpeg.652x0_q85_crop.png"
+},
+
+{
+    "tipo": "info",
+    "nome": "Cantos da Torcida",
+    "descricao": "As músicas que embalam o time e demonstram a paixão dos torcedores vascaínos nas arquibancadas.",
+    "link": "https://www.letras.mus.br/vasco-da-gama/",
+    "imagemUrl": "https://pbs.twimg.com/media/BWEabEwCYAAEulO.jpg"
+},
+
+{
+    "tipo": "info",
+    "nome": "Os Camisas Negras",
+    "descricao": "Conheça a Gloriosa História e surgimento dos Camisas Negras.",
+    "link": "https://vasco.com.br/conteudo/1923-os-camisas-negras/",
+    "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEoPhN9itJFS6bT-l1hHyj_0MJ3PE9ZfvTvw&s"
+},
+
+{
+    "tipo": "info",
+    "nome":"Principais Notícias Recentes",
+    "descricao": "Acompanhe as últimas notícias e atualizações sobre o Vasco da Gama.",
+    "link": "https://vasco.com.br/noticias-home/",
+    "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLnIAo6DtUFxnar5Oqq892NSbSyzb7e4v8Zw&s"
+},
+{
+    "tipo": "jogador",
+    "nome": "Daniel Fuzato",
+    "posicao": "Goleiro",
+    "idade": 28,
+    "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzDFAWe1yu5ws2fpCpa6kAvN71lSzNzUiB9g&s",
+    "descricao": "Valor de mercado: €900 mil",
+    "link": "https://www.transfermarkt.com.br/daniel-fuzato/profil/spieler/438682"
+},
+{
+    "tipo": "jogador",
+    "nome": "Léo Jardim",
+    "posicao": "Goleiro",
+    "idade": 29,
+    "imagemUrl": "https://img.band.com.br/image/2025/07/10/o-goleiro-ja-disputou-141-jogos-com-a-camisa-do-gigante-da-colina-145959_400x300.webp",
+    "descricao": "Valor de mercado: €7.00m",
+    "link": "https://www.transfermarkt.com.br/leo-jardim/profil/spieler/288415"
+},
+{
+    "tipo": "jogador",
+    "nome": "Paulo Henrique",
+    "posicao": "Lateral-direito",
+    "idade": 29,
+    "imagemUrl": "https://amazonasatual.com.br/wp-content/uploads/2023/12/Paulo-Henrique.jpg",
+    "descricao": "Valor de mercado: €3.50m",
+    "link": "https://www.transfermarkt.com.br/paulo-henrique/profil/spieler/412594"
+},
+{
+    "tipo": "jogador",
+    "nome": "Puma Rodriguez",
+    "posicao": "Lateral-direito",
+    "idade": 28,
+    "imagemUrl": "https://pbs.twimg.com/media/FlqFBNhXEBE9AAr.jpg",
+    "descricao": "Valor de mercado: €1.70m",
+    "link": "https://www.transfermarkt.com.br/jose-luis-rodriguez/profil/spieler/430339"
+},
+{
+    "tipo": "jogador",
+    "nome": "Carlos Cuesta",
+    "posicao": "Zagueiro",
+    "idade": 26,
+    "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv9tf6nw75lKpFl_YN_nyQfQqQJJy5NZVbLQ&s",
+    "descricao": "Valor de mercado: €7.00m",
+    "link": "https://www.transfermarkt.com.br/carlos-cuesta/profil/spieler/474589"
+},
+{
+    "tipo": "jogador",
+    "nome": "Robert Renan",
+    "posicao": "Zagueiro",
+    "idade": 22,
+    "imagemUrl": "https://www.netvasco.com.br/news/noticias16/arquivos/20250825-123927-1-1-.jpg",
+    "descricao": "Valor de mercado: €7.00m",
+    "link": "https://www.transfermarkt.com.br/robert-renan/profil/spieler/958598"
+},
+{
+    "tipo": "jogador",
+    "nome": "Lucas Freitas",
+    "posicao": "Zagueiro",
+    "idade": 24,
+    "imagemUrl": "https://www.netvasco.com.br/news/noticias16/arquivos/20250307-183950-1-1-.jpg",
+    "descricao": "Valor de mercado: €1.00m",
+    "link": "https://www.transfermarkt.com.br/lucas-freitas/profil/spieler/809716"
+},
+{
+    "tipo": "jogador",
+    "nome": "Lucas Piton",
+    "posicao": "Lateral-esquerdo",
+    "idade": 25,
+    "imagemUrl": "https://pbs.twimg.com/profile_images/1608455031002472448/O6QuVT1o_400x400.jpg",
+    "descricao": "Valor de mercado: €7.00m",
+    "link": "https://www.transfermarkt.com.br/lucas-piton/profil/spieler/670201"
+},
+{
+    "tipo": "jogador",
+    "nome": "Victor Luís",
+    "posicao": "Lateral-esquerdo",
+    "idade": 32,
+    "imagemUrl": "https://odia.ig.com.br/_midias/jpg/2024/02/05/385x420/1_gflr7jowiaesaq7-31908048.jpg",
+    "descricao": "Valor de mercado: €450 mil",
+    "link": "https://www.transfermarkt.com.br/victor-luis/profil/spieler/234538"
+},
+{
+    "tipo": "jogador",
+    "nome": "Cauan Barros",
+    "posicao": "Volante",
+    "idade": 21,
+    "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqAx_yUXZJ6Ppl4qK4tBqCO3OtFDogV5vm2Z_Hy5_yGno0XbfKFYyXNf7s8dV__7bNAhQ&usqp=CAU",
+    "descricao": "Valor de mercado: €5.00m",
+    "link": "https://www.transfermarkt.com.br/cauan-barros/profil/spieler/1083966"
+},
+{
+    "tipo": "jogador",
+    "nome": "Hugo Moura",
+    "posicao": "Volante",
+    "idade": 27,
+    "imagemUrl": "https://www.netvasco.com.br/news/noticias16/arquivos/20240418-145930-4-.jpg",
+    "descricao": "Valor de mercado: €1.80m",
+    "link": "https://www.transfermarkt.com.br/hugo-moura/profil/spieler/644157"
+},
+{
+    "tipo": "jogador",
+    "nome": "Tchê Tchê",
+    "posicao": "Volante",
+    "idade": 33,
+    "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAIcQ4gPzt48u1YuZ_7VMRWBAU-GmAS9WKLA&s",
+    "descricao": "Valor de mercado: €1.20m",
+    "link": "https://www.transfermarkt.com.br/tche-tche/profil/spieler/364261"
+},
+{
+    "tipo": "jogador",
+    "nome": "P. Coutinho",
+    "posicao": "Meio-campo",
+    "idade": 33,
+    "imagemUrl": "https://cdn.oantagonista.com/uploads/2024/07/Vasco-anuncia-volta-de-Philippe-Coutinho.png",
+    "descricao": "Valor de mercado: €7.00m",
+    "link": "https://www.transfermarkt.com.br/philippe-coutinho/profil/spieler/80444"
+},
+{
+    "tipo": "jogador",
+    "nome": "Nuno Moreira",
+    "posicao": "Meio-campo",
+    "idade": 26,
+    "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9d5TLdNVmSmDv8aiGJn026ceLDtpdmr8o2qI1C09PYLrShrMoCE6m2pr3bZX0IWv1j4F11NnLJJLSPZIAhaXt7V09wj4XmrHX4Xw51II&s=10",
+    "descricao": "Valor de mercado: €3.00m",
+    "link": "https://www.transfermarkt.com.br/nuno-moreira/profil/spieler/461937"
+},
+{
+    "tipo": "jogador",
+    "nome": "Pablo Vegetti",
+    "posicao": "Atacante",
+    "idade": 37,
+    "imagemUrl": "https://i.pinimg.com/736x/ba/b9/f4/bab9f497c46b88ff429fd43317ca7429.jpg",
+    "descricao": "Valor de mercado: €1.50m",
+    "link": "https://www.transfermarkt.com.br/pablo-vegetti/profil/spieler/213735"
+},
+{
+    "tipo": "jogador",
+    "nome": "Rayan Vítor",
+    "posicao": "Atacante",
+    "idade": 19,
+    "imagemUrl": "https://mancheterio.com.br/wp-content/uploads/2025/09/2025-VASCO-ATACANTE-RAYAN-1.jpg",
+    "descricao": "Valor de mercado: €18.00m",
+    "link": "https://www.transfermarkt.com.br/rayan/profil/spieler/1012564"
+},
+{
+    "tipo": "jogador",
+    "nome": "Andrés Gómez",
+    "posicao": "Atacante",
+    "idade": 23,
+    "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5sS8vdV4OWwbMsc23ivxjuMSzFv4Ar7qhyA&s",
+    "descricao": "Valor de mercado: €4.00m",
+    "link": "https://www.transfermarkt.com.br/andres-gomez/profil/spieler/957461"
+},
+{
+    "tipo": "produto",
+    "nome": "Camisas Oficiais",
+    "descricao": "À partir de R$ 149,99",
+    "imagemUrl": "https://images.tcdn.com.br/img/img_prod/1248372/camisa_masculina_kombat_home_player_25_1323_2_c677fc928272480ab5e523d005963b31.jpeg",
+    "link": "https://www.vascostore.com.br/linha-kappa/uniforme-de-jogo"
+},
+{
+    "tipo": "produto",
+    "nome": "Produtos Exclusivos",
+    "descricao": "À partir de R$ 24,90",
+    "imagemUrl": "https://images.tcdn.com.br/img/img_prod/1248372/copo_smart_vasco_317_1_ae4345bfce1182dc8333a1fca9b472bc.jpeg",
+    "link": "https://www.vascostore.com.br/produtos-exclusivos"
+},
+{
+    "tipo": "produto",
+    "nome": "Linha Casual",
+    "descricao": "À partir de R$ 65,99",
+    "imagemUrl": "https://images.tcdn.com.br/img/img_prod/1248372/camisa_juvenil_resistencia_vg_5_20251114113015_69edcd1e77dc.png",
+    "link": "https://www.vascostore.com.br/linha-casual"
+}]

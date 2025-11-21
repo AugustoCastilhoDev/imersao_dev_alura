@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Coração Vascaíno</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Coração Vascaíno</h1>
+        <div>
+            <input type="text" placeholder="Pesquise aqui" id="search-input">
+            <button onclick="realizarBusca()">Buscar</button>
+        </div>
+    </header>
+
+    <nav class="info-nav">
+        <a href="#" id="home-link">Home</a>
+        <a href="#" data-search="A História">História</a>
+        <a href="#" data-search="Títulos e Conquistas">Títulos</a>
+        <a href="#" data-search="Ídolos do Clube">Ídolos</a>
+        <a href="#" data-search="Estádio São Januário">Estádio</a>
+        <a href="#" data-search="Cantos da Torcida">Cantos da Torcida</a>
+        <a href="#" data-search="Os Camisas Negras">Camisas Negras</a>
+        <a href="#" data-search="Principais Notícias Recentes">Notícias</a>
+        <a href="#" data-search="_products_">Loja Online</a>
+    </nav>
+
+    <main>
+        <section class="card-container">        
+        </section>
+        <div class="carousel-wrapper">
+            <button id="scroll-left" class="arrow">&lt;</button>
+            <div class="carousel-viewport">
+                <section class="carousel-container">
+                    <!-- Os cards dos jogadores aparecerão aqui -->
+                </section>
+            </div>
+            <button id="scroll-right" class="arrow">&gt;</button>
+        </div>
+    </main>
+
+    <footer>
+        <ul>
+            <li><a href="https://github.com/AugustoCastilhoDev/" target="_blank">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/augusto-castilho87/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://vasco.com.br/" target="_blank">Site oficial do Vasco</a></li>
+        </ul>
+        <p class="developer-info">Desenvolvido por: Augusto Castilho</p>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            iniciarBusca(); // Carrega os dados, mas não renderiza os cards inicialmente
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
